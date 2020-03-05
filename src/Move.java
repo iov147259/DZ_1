@@ -1,24 +1,24 @@
 public class Move {
     public static void main (String[] args){
-    Buss buss = new Buss();
-        Buss.Transmission_D transmission_d = new Buss.Transmission_D() ;
-        Buss.Transmission_N transmission_n = new Buss.Transmission_N() ;
-        Buss.Transmission_R transmission_r = new Buss.Transmission_R() ;
-        Buss.Transmission_P transmission_p = new Buss.Transmission_P() ;
-        Buss.Radio radio = new Buss.Radio() ;
-        Buss.Horn horn = new Buss.Horn() ;
-        Buss.Head_Lights head_lights = new Buss.Head_Lights();
-        Buss.Interior_lighting interior_lighting = new Buss.Interior_lighting();
+    Bus buss = new Bus();
+        Bus.Transmission_D transmission_d = new Bus.Transmission_D() ;
+        Bus.Transmission_N transmission_n = new Bus.Transmission_N() ;
+        Bus.Transmission_R transmission_r = new Bus.Transmission_R() ;
+        Bus.Transmission_P transmission_p = new Bus.Transmission_P() ;
+        Bus.Radio radio = new Bus.Radio() ;
+        Bus.Horn horn = new Bus.Horn() ;
+        Bus.Head_Lights head_lights = new Bus.Head_Lights();
+        Bus.Interior_lighting interior_lighting = new Bus.Interior_lighting();
 
 
-        transmission_d.Movement();
-        transmission_n.Movement();
-        transmission_r.Movement();
-        transmission_p.Movement();
-        radio.Sound();
-        horn.Sound();
-        head_lights.Illumination();
-        interior_lighting.Illumination();
+        transmission_d.movement();
+        transmission_n.movement();
+        transmission_r.movement();
+        transmission_p.movement();
+        radio.sound();
+        horn.sound();
+        head_lights.illumination();
+        interior_lighting.illumination();
 
 
 
